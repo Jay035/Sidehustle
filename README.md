@@ -1,1 +1,2 @@
-The video showed how to go about and work with github
+###Side Hustle Internship
+####This contains all tasks from the Side Hustle Internship

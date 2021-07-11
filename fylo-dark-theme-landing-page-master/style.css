@@ -45,6 +45,11 @@ nav ul{
     list-style-type: none;
 }
 
+nav a:hover, .footer a:hover{
+    text-decoration: underline #fff;
+    font-weight: bold;
+}
+
 /* hero-section styles */
 .hero-section{
     margin-top: 2em;
@@ -94,6 +99,9 @@ nav ul{
     border: none;
     margin-top: 1.6em;
     background: linear-gradient(to right,hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
+button:hover{
+    background: hsl(176, 68%, 64%);
 }
 
 /* Info section */
@@ -145,6 +153,13 @@ nav ul{
     width: 60%!important;
     margin: 1em auto 1em 1.4em!important;
     border-bottom: 1px solid #62e0d9;
+}
+.action:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+a .action:hover{
+    text-decoration: none;
 }
 
 /* Testimonials section  */
@@ -232,7 +247,7 @@ form button{
 /* Footer section */
 footer{
     position: absolute;
-    top: 248em;
+    top: 260em;
     background-color: hsl(216, 53%, 9%);
     width: 100%;
 }
@@ -270,6 +285,9 @@ address{
 .social-media-icons svg{
     margin-left: .1em;
     margin-right: .1em;
+}
+.social-media-icons a path:hover{
+    fill: #62e0d9;
 }
 
 /* attribution styles */
@@ -399,7 +417,7 @@ address{
     /* Footer section */
     footer{
         position: absolute;
-    top: 173em;
+        top: 180em;
         
     }
     .foot{
@@ -438,21 +456,25 @@ address{
     }
 
     /* Early-access section */
+    #early-access{
+        position: relative;
+        top: 19.5em;
+    }
     form{
-        display: flex;
+        display: flex!important;
         flex-wrap: wrap;
         width: 90%;
     }
     input{
-        width: 60%;
+        width: 60%!important;
         margin: 1em auto;
     }
     form button{
-        width: 100%;
+        width: 35%!important;
         margin: 1em auto;
     }
     input, form button{
-        padding:.8rem 1rem ;
+        padding:.6rem 1rem ;
     }
     
     /* Footer section */
